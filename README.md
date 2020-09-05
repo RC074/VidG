@@ -1,4 +1,4 @@
-"# VidG" 
+"### VidG" 
 
 ## you will need to install moviepy and imageMagick
 ### pip install moviepy

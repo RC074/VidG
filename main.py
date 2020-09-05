@@ -83,7 +83,7 @@ def main():
     mergedMp4 = concatenate_videoclips(videoToMerge)
     mergedMp3 = concatenate_audioclips(audioToMerge)
     mergedMp3.write_audiofile(pF + "mp3\merge.mp3")
-    mergedMp4.write_videofile(pF + "mp4Cuts\merge.mp4", audio=pF + "mp3\merge.mp3")
+    mergedMp4.write_videofile(pF + "mp4Final\merge.mp4", audio=pF + "mp3\merge.mp3")
 
 if __name__ == '__main__':
     main()
